@@ -2,7 +2,7 @@ const Gen2 = () => {
     const RevandoGen2 = "Revando (Gen2)";
     return (
       <div>
-        <h2>{RevandoGen2}</h2>
+        <h3>{RevandoGen2}</h3>
       </div>
     );
   };

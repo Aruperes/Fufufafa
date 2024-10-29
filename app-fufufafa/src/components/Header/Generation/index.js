@@ -3,7 +3,7 @@ import Gen2 from "./Gen2";
 import Gen3 from "./Gen3";
 import Gen4 from "./Gen4";
 const Generation = () => {
-  const LikaGeneration = "Hello (Generation)";
+  const LikaGeneration = "Lika (Generation)";
   return (
     <div>
       <h2>{LikaGeneration}</h2>

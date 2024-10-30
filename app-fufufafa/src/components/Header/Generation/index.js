@@ -8,9 +8,9 @@ const Generation = () => {
     <div>
       <h2>{LikaGeneration}</h2>
       <Gen1 text="RevandoGen1 - using props" />
-      <Gen2 text="RevandoGen2" />
-      <Gen3 text="RevandoGen3" />
-      <Gen4 text="RevandoGen4" />
+      <Gen2 text="RevandoGen2 - using props" />
+      <Gen3 text="RevandoGen3 - using props" />
+      <Gen4 text="RevandoGen4 - using props" />
     </div>
   );
 };

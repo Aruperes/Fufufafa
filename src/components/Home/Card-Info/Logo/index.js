@@ -1,8 +1,7 @@
-const Logo = () => {
-    const rickyLogo = "Ricky (Logo) ";
+const Logo = ({text}) => {
     return (
       <div>
-        <h3>{rickyLogo}</h3>
+        <h3>{text}</h3>
       </div>
     );
   };

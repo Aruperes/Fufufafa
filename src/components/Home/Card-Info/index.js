@@ -7,9 +7,9 @@ const CardInfo = () => {
   return (
     <div>
       <h2>{MilyCardInfo}</h2>
-      <Evo />
-      <TypeEff />
-      <Logo />
+      <Evo text="EvoProps" />
+      <TypeEff text= "TypeEffProps"/>
+      <Logo text="LogoProps"/>
     </div>
   );
 };

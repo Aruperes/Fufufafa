@@ -1,8 +1,7 @@
-const Evo = () => {
-    const rickyEvo = "Ricky (Evolution)";
+const Evo = ({text}) => {
     return (
       <div>
-        <h3>{rickyEvo}</h3>
+        <h3>{text}</h3>
       </div>
     );
   };

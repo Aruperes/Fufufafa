@@ -1,8 +1,7 @@
-const TypeEff = () => {
-    const rickyType = "Ricky (Type-Effect)";
+const TypeEff = ({text}) => {
     return (
       <div>
-        <h3>{rickyType}</h3>
+        <h3>{text}</h3>
       </div>
     );
   };

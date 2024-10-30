@@ -1,11 +1,9 @@
-const Gen2 = () => {
-    const RevandoGen2 = "Revando (Gen2)";
-    return (
-      <div>
-        <h3>{RevandoGen2}</h3>
-      </div>
-    );
-  };
-  
-  export default Gen2;
-  
+const Gen2 = ({ text }) => {
+  return (
+    <div>
+      <h3>{text}</h3>
+    </div>
+  );
+};
+
+export default Gen2;

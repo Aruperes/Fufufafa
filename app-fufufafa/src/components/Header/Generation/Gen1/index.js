@@ -1,8 +1,7 @@
-const Gen1 = () => {
-  const RevandoGen1 = "Revando (Gen1)";
+const Gen1 = ({ text }) => {
   return (
     <div>
-      <h3>{RevandoGen1}</h3>
+      <h3>{text}</h3>
     </div>
   );
 };

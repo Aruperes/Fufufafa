@@ -7,10 +7,10 @@ const Generation = () => {
   return (
     <div>
       <h2>{LikaGeneration}</h2>
-      <Gen1 />
-      <Gen2 />
-      <Gen3 />
-      <Gen4 />
+      <Gen1 text="RevandoGen1 - using props" />
+      <Gen2 text="RevandoGen2" />
+      <Gen3 text="RevandoGen3" />
+      <Gen4 text="RevandoGen4" />
     </div>
   );
 };

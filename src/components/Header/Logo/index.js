@@ -1,10 +1,9 @@
-const Logo = () => {
-    const LikaLogo = "Lika (Logo)"
-    return (
-      <div>
-        <h2>{LikaLogo}</h2>
-      </div>
-    );
-  };
-  
+const Logo = ({ text }) => {
+  return (
+    <div>
+      <h2>{text}</h2>
+    </div>
+  );
+};
+
 export default Logo;

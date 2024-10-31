@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div>
       <h1>{JeremyApp}</h1>
-      <Header text="Header" />
-      <Home text="rumah"/>
-      <Footer text="kaki wkwk"/>
+      <Header text="Header props" />
+      <Home text="Home props" />
+      <Footer text="Footer props" />
     </div>
   );
 };

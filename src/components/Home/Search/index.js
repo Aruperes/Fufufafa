@@ -1,8 +1,7 @@
-const Search = () => {
-  const MilySearch = "Emily (Search)";
+const Search = ({ text }) => {
   return (
     <div>
-      <h2>{MilySearch}</h2>
+      <h2>{text}</h2>
     </div>
   );
 };

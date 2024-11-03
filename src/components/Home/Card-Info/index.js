@@ -2,14 +2,13 @@ import Evo from "./Evolution";
 import TypeEff from "./TypeEffect";
 import Logo from "./Logo";
 
-const CardInfo = () => {
-  const MilyCardInfo = "Emily (CardInfo)";
+const CardInfo = ({ text }) => {
   return (
     <div>
-      <h2>{MilyCardInfo}</h2>
+      <h2>{text}</h2>
       <Evo text="EvoProps" />
-      <TypeEff text= "TypeEffProps"/>
-      <Logo text="LogoProps"/>
+      <TypeEff text="TypeEffProps" />
+      <Logo text="LogoProps" />
     </div>
   );
 };
